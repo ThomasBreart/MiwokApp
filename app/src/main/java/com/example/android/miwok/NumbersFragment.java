@@ -74,7 +74,6 @@ public class NumbersFragment extends Fragment {
 
                 if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
                     // We have audiofocus now
-
                     mMediaPlayer = MediaPlayer.create(getActivity(), word.getmAudioResourceId());
                     mMediaPlayer.start();
                     mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
@@ -86,8 +85,6 @@ public class NumbersFragment extends Fragment {
                 }
             }
         });
-
-
         return rootView;
     }
 

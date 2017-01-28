@@ -84,8 +84,6 @@ public class ColorsFragment extends Fragment {
                 }
             }
         });
-
-
         return rootView;
     }
 

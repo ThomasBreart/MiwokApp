@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
-
-
-
         /*
         // Find the View that shows the numbers category
         TextView numbers = (TextView) findViewById(R.id.numbers);
